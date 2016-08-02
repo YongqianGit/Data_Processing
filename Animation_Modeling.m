@@ -35,6 +35,10 @@ colormap(wave_map)  % for blue / water-like surface   %the map for the figures
 % Read outputs of parallel computation using MPI
 % All outputs in binary format
 
+fid  = zeros(5 * num_procs);
+fid2 = zeros(3 * num_procs);
+fid3 = zeros(1 * num_procs);
+
 for rank = 0 : num_procs - 1
     
     file_ind = sprintf('%03d', rank);
