@@ -11,3 +11,5 @@ files. The unexpected errors or abnormal data will be detected and visualized in
 
 3. Script for modeling result visualization and 3D animation (video formats)
 generation.
+
+![Animation](https://github.com/YongqianGit/Data_Processing/blob/master/Animation_M5.gif)
